@@ -1,16 +1,16 @@
 {
-  "name": "ellipsis",
+  "name": "moodim",
   "version": "0.0.1",
-  "description": "FE Ellipsis Project",
+  "description": "moodim opensource project",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack --env.production --config webpack.config.js",
     "start": "webpack-dev-server --config webpack.config.js"
   },
-  "repository": "https://oss.navercorp.com/seonjun-hwang/Ellipsis",
+  "repository": "https://github.com/SeonJun-Hwang/moodim",
   "author": "seonjun-Hwang",
-  "license": "ISC",
+  "license": "MIT",
   "devDependencies": {
     "@babel/core": "^7.8.4",
     "babel-loader": "^8.0.6",
