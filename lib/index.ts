@@ -2,7 +2,7 @@ import MoodimOption from "~types/moodimOption";
 import Strategy from "~strategy/BaseStrategy";
 import StrategyFactory from "~strategy/StrategyFactory";
 import StrategyOption from "~types/strategyOption";
-import { isHTML } from "~src/utils/String";
+import { isHTML } from "~utils/String";
 
 class Moodim {
     private $parents: JQuery<HTMLElement>;
