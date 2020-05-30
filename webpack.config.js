@@ -5,14 +5,14 @@ require("dotenv");
 
 module.exports = {
 	mode: process.env.production ? "production" : "development",
-	devtool: "eval",
-	entry: ["./lib/index.ts"],
+	devtool: "source-map",
+	entry: "./lib/index.ts",
 	output: {
 		filename: "index.js",
 		path: path.join(__dirname, "dist")
 	},
 	resolve: {
-		extensions: [".ts", ".tsx", ".js", ".json"],
+		extensions: [".ts", ".tsx", ".js"],
 		alias: {
 			"~": path.resolve(__dirname, "./lib"),
 			"~strategy": path.resolve(__dirname, "./lib/strategy"),
@@ -29,7 +29,7 @@ module.exports = {
 					loader: "ts-loader"
 				}
 			}
-		]
+		],
 	},
 	optimization: {
 		minimize: process.env.production,
