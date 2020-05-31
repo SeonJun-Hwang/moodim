@@ -1,6 +1,6 @@
 {
     "name": "moodim",
-    "version": "0.0.1-beta.1",
+    "version": "0.0.1-beta.2",
     "description": "JS ellipsis module",
     "main": "dist/index.js",
     "keywords": [
